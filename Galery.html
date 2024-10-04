@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+          background-color:gainsboro;
+          background-position:center;
+          background-repeat:no-repeat;
+          background-size:cover;
+              }
+              .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .overlay-dark::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+      }
+        
+ 
+      </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PT.Miuwah Beauty</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Galery.html">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">logout</a>
+              </li>
+
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+    </nav>
+    </header>
+     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay-dark"><img src="img/bunga/download.jpg" style="width:100%" alt=""></div>
+      
+    
+           <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Pabrik Kosmetik Dan Skincare Terbaik</h1>
+              <p>Tertarik dengan bisnis kosmetik dan skincare? yuk konsultasi bersama PT.Miuwah Beauty</p>
+              <p><a class="btn btn-lg btn-info" href="#">Beranda</a></p>
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+              <img src="img/foto2.jpg" style="width:100%"  alt="">
+             </div>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Punya Masalah Dengan Kulit Kering Atau Berjerawat?</h1>
+                <p>Temukan solusinya dengan produk skincare kami yang telah terbukti ampuh</p>
+                <p><a class="btn btn-lg btn-info" href="#">Tekan Sini</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark"> <img src="img/foto3.jpg" style="width:100%"  alt=""></div>
+            <div class="container">
+              <div class="carousel-caption text-end ">
+                <h1>Bingung Dengan Produk Kami?</h1>
+                <p>Tersedia dalam brbagai varian untuk memenuhi kebutuhan kulit normal, kering, berminyak atau sensitif</p>
+                <p><a class="btn btn-lg btn-info" href="#"> gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        </div>
+      </nav>
+        <div class="container mt-3">
+       
+       
+  
+        
+       <!--Galery-->
+       <section class="galery">
+        <div class="container">
+          <div class="row text-center">
+           <div class="col">
+            <h1>My Galery</h1>
+            <hr>
+           </div>
+          </div>
+          <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+        
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/bunga/bunga/download (1).jpg" width="100%" height="195">
+                    <div class="card-body">
+                      <p class="card-text">Ms Glow adalah rangkaian produk perawatan kulit yang diformulasikan khusus untuk mengatasi berbagai kulit masalah kulit wajah.</p>
+                      <div class="d-flex justify-content. -between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/bunga/bunga/th (2).jpg" height="195">
+                    <div class="card-body">
+                      <p class="card-text">Essense untuk mencerahkan kulit dan melembabkan dan masih banyak fungsi yang lebih manjur harga juga terjangkau sesuai dengan yang ada di kantong.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/bunga/bunga/OIPKIK0HSL3.jpg" height="195">
+                    <div class="card-body">
+                      <p class="card-text"> PT.Miuah Beauty menyediakan obat minum yang leih cepat untuk membatu memutihkan dan harus rutin minumnya agar terjadi hasil yang maksimal.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/bunga/OIP (2).jpg" width="78%"  height="78%">
+                    <div class="card-body">
+                      <p class="card-text">Ms Glow Men disediakan untuk para pria agar kita tidak insecure dengan pacar kitaa.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/bunga/bunga/o.jpg" height="195">
+                    <div class="card-body">
+                      <p class="card-text">produk kami juga menyediakan berbagai serum untuk mempercepat/proses perawatan anda dengan memakai serum yang sudah di sediakan tinggal di cocokan dengan kulit anda masing masin.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/bunga/OIPKFWCG3AQ.jpg" height="195">
+                    <div class="card-body">
+                      <p class="card-text">dan ada juga varian bedak yang bemacam macam/berbagai warna bedak ini mampu membatu dalam wajah anda agar tidak kelihatan kusam/berminyak dan jangan lupa di cocokan dengan kulit anda sendiri.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/bunga/Removable Disk/OIP (19).jpg" height="195">
+                    <div class="card-body">
+                      <p class="card-text">PT.Miuah Beauty menyediakan kosmetik terlekap di indonesia .</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/bunga/Removable Disk/unduhan (8).jpg" height="195">
+                    <div class="card-body">
+                      <p class="card-text">PT.Miuah Beauty menyediakan semua warna tersedia.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/bunga/Removable Disk/OIP (24).jpg">
+                    <div class="card-body">
+                      <p class="card-text">gamabaran toko PT.Miuah Beauty yang kedepanya akan lebih besar lagi.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+         <!--akhir Galery-->
+         <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">&copy; bungakaen</p>
+        </footer>
+        <footer class="text-muted py-5">
+          <div class="container">
+            <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+            <p class="float-end mb-1">
+              <a href="#">Back to top</a>
+        <script src="js/bootstrap.js"></script>
+</body>
+</html>
